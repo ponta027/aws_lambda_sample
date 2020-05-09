@@ -77,3 +77,20 @@ $ npm run build
 ```
 $ ./node_modules/.bin/tslint 'src/*.ts'
 ```
+
+
+
+## update lambda function
+
+AWS Lambda Functionにdeploy
+
+build配下のjsファイルをzipファイルに格納する。
+zipファイルを対象関数にdeployする。
+
+
+```
+$ cd build
+$ zip function.zip index.js sample.js
+$ aws lambda update-function-code --function-name hello_world  --zip-file fileb://function.zip
+```
+
