@@ -1,0 +1,26 @@
+{
+  "name": "aws_lambda_sample",
+  "version": "1.0.0",
+  "description": "aws lambda sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc",
+    "ts-node": "./node_modules/.bin/ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ponta027/aws_lambda_sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ponta027/aws_lambda_sample/issues"
+  },
+  "homepage": "https://github.com/ponta027/aws_lambda_sample#readme",
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
+  }
+}
